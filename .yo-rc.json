@@ -1,0 +1,53 @@
+{
+    "generator-water": {
+			"hasSonarqubeIntegration": true,
+			"hasAuthentication": false,
+			"applicationTypeEntity": false,
+			"applicationType": "service",
+			"projectSuffix": "mqttConnector",
+			"projectSuffixUpperCase": "MqttConnector",
+			"projectSuffixLowerCase": "mqttconnector",
+			"projectName": "MqttConnector",
+			"projectGroupId": "it.water.connectors.mqtt",
+			"projectVersion": "project.waterVersion",
+			"projectTechnology": "water",
+			"hasRestServices": false,
+			"restContextRoot": "na",
+			"hasModel": false,
+			"modelName": "MqttConnector",
+			"modelNameLowerCase": "mqttConnector",
+			"persistenceLib": "jakarta",
+			"validationLib": "jakarta",
+			"projectPath": "MqttConnector",
+			"projectApiPath": "MqttConnector/MqttConnector-api",
+			"projectModelPath": "MqttConnector/MqttConnector-model",
+			"projectServicePath": "MqttConnector/MqttConnector-service",
+			"projectParentPath": "MqttConnector",
+			"projectBasePath": "/src/main/java/it/water/connectors/mqtt",
+			"projectTestPath": "/src/test/java/it/water/connectors/mqtt",
+			"apiPackagePath": "/src/main/java/it/water/connectors/mqtt/api",
+			"apiPackage": "it.water.connectors.mqtt.api",
+			"actionsPackagePath": "/src/main/java/it/water/connectors/mqtt/actions",
+			"actionsPackage": "it.water.connectors.mqtt.actions",
+			"modelPackagePath": "/src/main/java/it/water/connectors/mqtt/model",
+			"modelPackage": "it.water.connectors.mqtt.model",
+			"repositoryPackagePath": "/src/main/java/it/water/connectors/mqtt/repository",
+			"repositoryPackage": "it.water.connectors.mqtt.repository",
+			"springRepository": true,
+			"servicePackagePath": "/src/main/java/it/water/connectors/mqtt/service",
+			"servicePackage": "it.water.connectors.mqtt.service",
+			"serviceRestPackagePath": "/src/main/java/it/water/connectors/mqtt/service/rest",
+			"serviceRestPackage": "it.water.connectors.mqtt.service.rest",
+			"testPackage": "it.water.connectors.mqtt",
+			"publishModule": true,
+			"publishRepoName": "public-water-repository",
+			"publishRepoUrl": "https://nexus.acsoftware.it/nexus/repository/maven-water/",
+			"publishRepoHasCredentials": true,
+			"entities": [
+						{
+									"modelName": "MqttConnector"
+						}
+			],
+			"parent-project": true
+}
+}
